@@ -1,6 +1,6 @@
 # Laravel Debugbar Git Info
 
-Add your project's Git information in your Laravel Debugbar.
+Add your project's Git information to your Laravel Debugbar.
 
 ![alt text](.github/gitinfo-screenshot.jpg)
 
