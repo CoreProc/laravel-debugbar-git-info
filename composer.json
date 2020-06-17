@@ -1,0 +1,22 @@
+{
+    "name": "coreproc/laravel-debugbar-git-info",
+    "description": "Add your project's Git information in your Laravel Debugbar",
+    "type": "library",
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^2|^3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Bautista",
+            "email": "chris.bautista@coreproc.ph"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Coreproc\\LaravelDebugbarGitInfo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
