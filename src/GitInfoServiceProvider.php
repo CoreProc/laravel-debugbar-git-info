@@ -2,7 +2,6 @@
 
 namespace Coreproc\LaravelDebugbarGitInfo;
 
-use Coreproc\LaravelDebugbarGitInfo\GitInfoCollector;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 
@@ -19,4 +18,3 @@ class GitInfoServiceProvider extends ServiceProvider
         $debugbar->addCollector(new GitInfoCollector());
     }
 }
-

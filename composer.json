@@ -3,7 +3,7 @@
     "description": "Add your project's Git information in your Laravel Debugbar",
     "type": "library",
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^2|^3"
+        "barryvdh/laravel-debugbar": "^3"
     },
     "license": "MIT",
     "authors": [
@@ -15,6 +15,13 @@
     "autoload": {
         "psr-4": {
             "Coreproc\\LaravelDebugbarGitInfo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coreproc\\LaravelDebugbarGitInfo\\GitInfoServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
