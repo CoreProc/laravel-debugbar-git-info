@@ -1,6 +1,6 @@
 {
     "name": "coreproc/laravel-debugbar-git-info",
-    "description": "Add your project's Git information in your Laravel Debugbar",
+    "description": "Add your project's Git information to your Laravel Debugbar.",
     "type": "library",
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3"
