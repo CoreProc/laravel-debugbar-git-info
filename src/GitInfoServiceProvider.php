@@ -8,11 +8,11 @@ use Illuminate\Support\ServiceProvider;
 class GitInfoServiceProvider extends ServiceProvider
 {
     /**
-     * Register any application services.
+     * Bootstrap any application services.
      *
      * @return void
      */
-    public function register()
+    public function boot()
     {
         $debugbar = App::make('debugbar');
         $debugbar->addCollector(new GitInfoCollector());
